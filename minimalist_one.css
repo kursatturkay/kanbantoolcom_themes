@@ -1,0 +1,62 @@
+kt-board>thead>tr>th {
+    padding: 0px 0px!important;
+}
+
+kt-board>thead>tr>th {
+    padding: 0px 0!important;
+}
+
+kt-board>tbody>tr>td,kt-board>thead>tr>td {
+    text-align: center;
+    background: rgba(252,252,252,0.8);
+    border-style: solid dotted;
+    border-color: #ddd;
+    border-width: 1px 0 0 1px;
+    border-top: 1px solid #ddd;
+    vertical-align: top;
+    /* padding: 0 5px; */
+    position: relative
+}
+
+kt-board>tbody>tr>td,kt-board>thead>tr>td {
+    text-align: center;
+    background: rgba(252,252,252,0.8);
+    border-style: dashed!important;
+    border-color: #ddd;
+    border-top: 1px solid #ddd;
+    vertical-align: top;
+    padding:0;
+    position:relative;
+}
+
+kt-task {
+    --kt-task--width: 172px;
+    display: block;
+    z-index: 0;
+    float: left;
+    cursor: pointer;
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    width: 172px;
+    min-width: 172px;
+    max-width: 172px;
+    width: calc(var(--kt-task--width) * var(--kt-board--zoom,1));
+    min-width: calc(var(--kt-task--width) * var(--kt-board--zoom,1));
+    max-width: calc(var(--kt-task--width) * var(--kt-board--zoom,1));
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    border-radius: 0px;
+    margin: 0px;
+    margin-left: 0px;
+    margin: 1px;
+    margin-left: 1px;
+    font-size: 12.5px;
+    font-size: calc(12.5px * var(--kt-board--zoom,1));
+    color: rgba(0,0,0,0.870588);
+    border:hotpink 1px dashed ;
+    
+    -moz-user-select: none
+}
